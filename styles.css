@@ -17,3 +17,13 @@ body {
 * {
     font-family: 'Kalam', cursive;
 }
+
+#form-section {
+    background-color: green;
+}
+
+h1, h2 {
+    margin: 1em auto;
+    text-align: center;
+    background-color: blue;
+}
