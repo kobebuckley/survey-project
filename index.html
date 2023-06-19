@@ -12,8 +12,10 @@
         
             <section id="form-section">
                 
-                <!--NEEDS action, radio questions, and background image for main body-->
                 <form id="survey-form" action="">
+
+
+                <!--Fieldset Section 1-->
 
                     <fieldset>
                         <!-- <legend id="name-legend">Name</legend> -->
@@ -74,31 +76,38 @@
                         </label>
               
                     </fieldset>
+
+
+                <!--Fieldset Section 2-->
+
+
                     <fieldset>
-                        <legend>test</legend>
-                        <label for="testing">
+                        <!-- <legend>test</legend> -->
+                        <label for="watched-question">Did you watch this anime yet? 
+
+                        <label>
                           <input 
                             class="inline"
-                            id="" 
+                            id="no-watched" 
                             type="radio" 
-                            name="test-radio" 
-                            value="" 
-                            checked> test 1
+                            name="no-watched" 
+                            value="no" 
+                            checked>No... I'm just lost
                         </label>
+
+
                         <label for="">
                           <input 
                             class="inline"
-                            id="" 
+                            id="yes-watched" 
                             type="radio" 
-                            name="test-radio" 
-                            value=""> test 2
+                            name="yes-watched" 
+                            value="yes">Yes
                         </label>
-                    </fieldset>
-
-                    <fieldset>
+        
                         <!-- <legend>What is your favorite aspect of Jujutsu Kaisen?</legend> -->
                         <label for="select">What is your favorite aspect of Jujutsu Kaisen?
-
+                            
                             <select required name="select" id="select-status">
                                 <option value="">(Select an option below)</option>
                                 <option value="characters">Characters</option>
@@ -107,8 +116,8 @@
                                 <option value="none">No favorite aspect</option>
                                 <option value="other">Other</option>
                             </select>
-
-                    </fieldset>
+                            
+                        </fieldset>
 
                             <!-- Add in the checkboxes -->
 
@@ -155,7 +164,6 @@
                                 <input class="inline-checkbox" type="checkbox" name="junpei_yoshino" id="junpei_yoshino" value="junpei_yoshino"> Junpei Yoshino ( 吉野 純平 )
                             </label>
 
-                    </fieldset>
                     
                             <!-- Add in the text area -->
                     <fieldset>
@@ -173,6 +181,7 @@
                         </label>
                     </fieldset>
 
+                </fieldset>
                 </form>
             </section>
         </main>
