@@ -16,24 +16,18 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Kalam', cursive;
-  font-size: 16px;
+  font-size: 18px;
   color: #f3f3f3;
 }
 
-h1, h2 {
-  margin: .75em;
-  margin-bottom: -10px;
-  text-align: center;
-  /* color: #f3f3f3; */
-  ;
+h1 {
+  margin-bottom: -20px;
 }
 
-/* h2 {
-  margin-top: -12px;
-  margin: 0;
-  padding: 0px;
-  background-color: red;
-} */
+h1, h2 {
+  text-align: center;
+}
+
 
 #form-section {
   height: 100%;
@@ -45,7 +39,7 @@ h1, h2 {
   padding-top: 2em;
   padding-right: 2em;
   padding-bottom: 2em; 
-  background-color: rgba(13, 41, 81, 0.5);
+  background-color: rgba(13, 41, 81, 0.8);
   }
 
   
@@ -60,20 +54,18 @@ h1, h2 {
   fieldset {
     padding: 0;
     /* padding: 1rem 0; */
-    background-color: blue;
+    /* background-color: blue; */
     border-bottom: 3px solid black;
     border: none;
   }
 
-  #title {
-    /* padding-top: ; */
-  }
+
 
   label {
-    font-size: 16px;
+    /* font-size: 16px; */
     display: block;
     margin: 0.5rem 0;
-    background-color: green;
+    /* background-color: green; */
     /* align-items: left; */
   }
   
@@ -88,6 +80,10 @@ h1, h2 {
   input, textarea {
     border: 1px solid #0a0a23;
     color: #5a5858;
+  }
+
+  textarea {
+    margin-top: 10px;
   }
 
 .inline {
@@ -115,20 +111,14 @@ button[type="submit"] {
   border-color: #999;
   color: white;
   min-width: 300px;
-
-  background-color: rgba(13, 41, 81, 0.5);
-  /* padding: 10px 20px; */
-  /* border: none; */
+  background-color: #008080;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-button {
-  /* Add your button styles here */
 
-}
 
 button:hover {
-  background-color: #999;
+  background-color: #CCCCCC ;
   color: #fff;
 }
 

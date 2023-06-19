@@ -26,7 +26,7 @@
                         <label for="name">Name
                             <input 
                                 required
-                                placeholder="Enter your first name"
+                                placeholder=" Enter your first name"
                                 type="text"
                                 id="name"
                                 name="name"
@@ -37,7 +37,7 @@
                         <label for="last-name">Last Name
                             <input 
                                 required
-                                placeholder="Enter your last name"
+                                placeholder=" Enter your last name"
                                 type="text"
                                 id="last-name"
                                 name="last-name"
@@ -48,7 +48,7 @@
                            <label for="last-name">Email
                             <input 
                                 required
-                                placeholder="Enter your Email"
+                                placeholder=" Enter your Email"
                                 type="email"
                                 id="email"
                                 name="email"
@@ -58,7 +58,7 @@
                         <label for="age">Age
                             <input 
                                 required
-                                placeholder="Enter your age"
+                                placeholder=" Enter your age"
                                 type="number"
                                 id="age"
                                 name="age"
@@ -71,7 +71,7 @@
                         <!-- <legend><How much experience do you have with anime?/legend> -->
                         <label for="select">How much experience do you have with anime?
                             <select required name="select" id="select-status">
-                                <option value="">(Select an option below)</option>
+                                <option value=""> (Select an option below)</option>
                                 <option value="intermediate">Watched over 5 or more anime series</option>
                                 <option value="beginner">This is your first anime</option>
                                 <option value="veteran">More than 30 animes series</option>
@@ -88,26 +88,28 @@
                     <fieldset>
                         <!-- <legend>test</legend> -->
                         <label for="watched-question">Did you watch this anime yet? 
+                            <hr>
 
-                        <label>
+                        <label for="no-watched">
                           <input 
                             class="inline"
                             id="no-watched" 
                             type="radio" 
-                            name="no-watched" 
+                            name="watched-choices" 
                             value="no" 
                             checked>No... I'm just lost
                         </label>
 
 
-                        <label for="">
+                        <label for="yes-watched">
                           <input 
                             class="inline"
                             id="yes-watched" 
                             type="radio" 
-                            name="yes-watched" 
+                            name="watched-choices" 
                             value="yes">Yes
                         </label>
+                        <hr>
                     </fieldset>
                         <fieldset>
         
@@ -115,7 +117,7 @@
                         <label for="select">What is your favorite aspect of Jujutsu Kaisen?
                             
                             <select required name="select" id="select-status">
-                                <option value="">(Select an option below)</option>
+                                <option value=""> (Select an option below)</option>
                                 <option value="characters">Characters</option>
                                 <option value="action">Action</option>
                                 <option value="theme">Theme</option>
@@ -172,11 +174,12 @@
                                 <input class="inline-checkbox" type="checkbox" name="junpei_yoshino" id="junpei_yoshino" value="junpei_yoshino"> Junpei Yoshino ( 吉野 純平 )
                             </label>
 
-                    
+                    <hr>
                             <!-- Add in the text area -->
                     <fieldset>
                         <!-- <legend>Any comments or suggestions?</legend> -->
                         <label for="comments-suggestions">Any comments or suggestions?
+                            
                             <textarea name="" id="" cols="40" rows="10"></textarea>
                         </label>
                   
