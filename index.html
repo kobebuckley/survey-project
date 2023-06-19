@@ -15,7 +15,7 @@
         
             <section id="form-section">
                 
-                <form id="survey-form" action="">
+                <form id="survey-form" action="This is where u put the place the form data goes to">
 
 
                 <!--Fieldset Section 1-->
@@ -23,7 +23,7 @@
                     <fieldset>
                         <!-- <legend id="name-legend">Name</legend> -->
 
-                        <label for="name">Name
+                        <label id="name-label"  for="name">Name
                             <input 
                                 required
                                 placeholder=" Enter your first name"
@@ -34,18 +34,18 @@
                         </label>
 
                         <!-- <legend>Last Name</legend> -->
-                        <label for="last-name">Last Name
+                        <label id="lastname-label" for="lastname">Last Name
                             <input 
                                 required
                                 placeholder=" Enter your last name"
                                 type="text"
-                                id="last-name"
+                                id="lastname"
                                 name="last-name"
                                 >
                         </label>
 
                            <!-- <legend>Email</legend> -->
-                           <label for="last-name">Email
+                           <label id="email-label" for="email">Email
                             <input 
                                 required
                                 placeholder=" Enter your Email"
@@ -55,12 +55,12 @@
                                 >
                         </label>
                         <!-- <legend>Age</legend> -->
-                        <label for="age">Age
+                        <label id="number-label" for="age">Age
                             <input 
                                 required
                                 placeholder=" Enter your age"
                                 type="number"
-                                id="age"
+                                id="number"
                                 name="age"
                                 min="8"
                                 max="99"
@@ -116,7 +116,7 @@
                         <!-- <legend>What is your favorite aspect of Jujutsu Kaisen?</legend> -->
                         <label for="select">What is your favorite aspect of Jujutsu Kaisen?
                             
-                            <select required name="select" id="select-status">
+                            <select required name="select" id="dropdown">
                                 <option value=""> (Select an option below)</option>
                                 <option value="characters">Characters</option>
                                 <option value="action">Action</option>
@@ -186,7 +186,7 @@
 
                             <!-- Add in the submit -->
                         
-                                <button type="submit">Submit</button>
+                                <button id="submit" type="submit">Submit</button>
                             </fieldset>
                             <p id="description">Photo by Jase Bloor on Unsplash</p>    
                         </label>
