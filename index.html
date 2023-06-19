@@ -4,22 +4,21 @@
     <head>
         <title>Jujutsu Kaisen Survey</title>
         <link rel="stylesheet" href="styles.css">
-    </head>   
-     
+    </head>    
     <body>
         <main>
-            <h1>Jujutsu Kaisen Survey</h1>
+            <h1 id="title">Jujutsu Kaisen Survey</h1>
             <h2>* Spoiler Free *</h2>
         
             <section id="form-section">
                 
                 <!--NEEDS action, radio questions, and background image for main body-->
-                <form action="">
+                <form id="survey-form" action="">
 
                     <fieldset>
-                        <legend>Name</legend>
+                        <!-- <legend id="name-legend">Name</legend> -->
 
-                        <label for="name">
+                        <label for="name">Name
                             <input 
                                 required
                                 placeholder="Enter your first name"
@@ -29,8 +28,8 @@
                                 >
                         </label>
 
-                        <legend>Last Name</legend>
-                        <label for="last-name">
+                        <!-- <legend>Last Name</legend> -->
+                        <label for="last-name">Last Name
                             <input 
                                 required
                                 placeholder="Enter your last name"
@@ -39,22 +38,32 @@
                                 name="last-name"
                                 >
                         </label>
-                        
-                        <legend>Age</legend>
-                        <label for="age">
+
+                           <!-- <legend>Email</legend> -->
+                           <label for="last-name">Email
+                            <input 
+                                required
+                                placeholder="Enter your Email"
+                                type="email"
+                                id="email"
+                                name="email"
+                                >
+                        </label>
+                        <!-- <legend>Age</legend> -->
+                        <label for="age">Age
                             <input 
                                 required
                                 placeholder="Enter your age"
-                                type="text"
+                                type="number"
                                 id="age"
                                 name="age"
+                                min="8"
+                                max="99"
                                 >
                         </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>How much experience do you have with anime?</legend>
-                        <label for="select">
+                    </fieldset><fieldset>
+                        <!-- <legend><How much experience do you have with anime?/legend> -->
+                        <label for="select">How much experience do you have with anime?
                             <select required name="select" id="select-status">
                                 <option value="">(Select an option below)</option>
                                 <option value="intermediate">Watched over 5 or more anime series</option>
@@ -67,7 +76,7 @@
                     </fieldset>
                     <fieldset>
                         <legend>test</legend>
-                        <label for="">
+                        <label for="testing">
                           <input 
                             class="inline"
                             id="" 
@@ -87,8 +96,8 @@
                     </fieldset>
 
                     <fieldset>
-                        <legend>What is your favorite aspect of Jujutsu Kaisen?</legend>
-                        <label for="select">
+                        <!-- <legend>What is your favorite aspect of Jujutsu Kaisen?</legend> -->
+                        <label for="select">What is your favorite aspect of Jujutsu Kaisen?
 
                             <select required name="select" id="select-status">
                                 <option value="">(Select an option below)</option>
@@ -160,7 +169,7 @@
                             <fieldset>
                                 <button type="submit">Submit</button>
                             </fieldset>
-                            <p>Photo by Jase Bloor on Unsplash</p>    
+                            <p id="description">Photo by Jase Bloor on Unsplash</p>    
                         </label>
                     </fieldset>
 
